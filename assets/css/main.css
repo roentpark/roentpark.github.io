@@ -1305,14 +1305,15 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-	background-image: url("images/backgroundgradient.jpg");
+body {
+	background-image: url("/backgroundgradient.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	overflow-y: scroll;
-	}
+}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
